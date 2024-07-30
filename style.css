@@ -1,0 +1,40 @@
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url(background.jpg);
+    min-height: 42rem;
+}
+body{
+    font-family:Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+#netflix-logo{
+    width: 10rem; /*Logo in the header*/
+}
+.form-control-lg{
+    width:20rem;
+    background-color: rgba(0, 0, 0, 0.419);
+}
+section{
+    background-color: black;
+    min-height: 32rem;
+}
+img{
+   max-width: 28rem;
+}
+.faq-div{
+    background-color: #333030;
+}
+.faq-div:hover{
+    background-color:#524d4d ;
+}
+ul,ul a,li{
+    list-style-type:none;
+    color:rgba(255, 255, 255, 0.759);
+    padding-top: 1rem;
+}
+ul a:hover{
+    color:rgba(255, 255, 255, 0.759);/*Hover effect to questions in FAQ section*/
+}
+footer{
+    font-size:smaller;
+    background-color: black;
+    min-height: 25rem;
+}
